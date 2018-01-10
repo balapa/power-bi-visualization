@@ -1,0 +1,17 @@
+{
+  "name": "powerbi-visual",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start & yarn run stylus",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "stylus": "stylus -w -m --include-css src/stylus/style.styl -o src/css/style.css"
+  }
+}

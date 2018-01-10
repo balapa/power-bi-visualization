@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "base/reset.css"
+@import "base/flexboxgrid.css"
+@import "base/color"
+
+graphBorderColor = #ddd
+ballBase = 8px
+headerHeight = 60px
+
+body
+	font-size 16px
+	font-family "Roboto"
+	padding-top headerHeight
+
+header
+	position fixed
+	width 100%
+	height headerHeight
+	background primeGradient
+	top 0
+
+.base-wrapper
+	width 1204px
+	margin 0 auto
+
+section
+	padding 100px 0
+
+	.content-wrapper
+		padding-right 50px
+	// 	background #f6f9fc
+
+	.row > div
+		display flex
+
+		> div
+			align-self center
+			width 100%
+
+// components
+@import "components/text"
+@import "components/chart1"

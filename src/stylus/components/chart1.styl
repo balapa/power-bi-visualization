@@ -1,0 +1,120 @@
+#chart-wrapper
+	// border 1px solid red
+	// border-bottom 35px solid transparent
+	// padding 50px
+	// box-sizing border-box
+
+.chart
+	border-bottom 1px solid graphBorderColor
+	position relative
+	padding-top 15px
+
+	.price-wrapper
+		height 100px
+		position relative
+
+		&:before
+			content ""
+			position absolute
+			left 0
+			right 0
+			top 0
+			height 1px
+			background graphBorderColor
+
+		.price
+			padding-right 5px
+			background white
+			display inline-block
+			position relative
+			transform translateY(-50%)
+
+	.teams
+		position absolute
+		top 0
+		left 33px
+		right 0
+		bottom 0
+		display flex
+
+		.team-wrapper
+			display flex
+			position relative
+
+			&:before
+				content	""
+				position absolute
+				top 0
+				left 50%
+				bottom 0
+				width 1px
+				background graphBorderColor
+
+			.team
+				font-size .7rem
+				padding 0 10px
+				box-sizing border-box
+				text-align center
+				width 100%
+				position absolute
+				width 100%
+				bottom -15px
+				height 0
+
+
+
+
+.legend-list
+	display flex
+	margin-bottom 15px
+
+	.legend
+		display flex
+		text-transform uppercase
+		font-size .7rem
+
+		&:not(:last-child)
+			margin-right 10px
+
+	.legend-ball
+		height ballBase
+		width ballBase
+		border-radius 50%
+		background red
+		margin-right 3px
+		position relative
+		top 1px
+
+	.legend-text, .legend-color
+		// align-self center
+
+
+
+
+.team-wrapper
+
+	.sale
+		position absolute
+		left 50%
+		transform translateX(-50%) translateY((ballBase / 2))
+		cursor pointer
+		transition .3s all ease
+		-webkit-backface-visibility hidden
+
+		&:hover
+			opacity .5
+
+		.amount
+			font-size .6rem
+			margin-bottom 1px
+
+		.sale-ball
+			width ballBase
+			height ballBase
+			border-radius 50%
+			background red
+			display block
+			margin 0 auto
+
+		.amount, .sale-ball
+			pointer-events none

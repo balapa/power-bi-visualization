@@ -1,0 +1,207 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Angels",
+      "sales": [
+	{
+	  "amount": "1000",
+	  "legendID": 1
+	},
+	{
+	  "amount": "1250",
+	  "legendID": 2
+	},
+	{
+	  "amount": "1792",
+	  "legendID": 3
+	},
+	{
+	  "amount": "3100",
+	  "legendID": 4
+	}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Baltimore Orioles",
+      "sales": [
+	{
+	  "amount": "777",
+	  "legendID": 1
+	},
+	{
+	  "amount": "128",
+	  "legendID": 2
+	},
+	{
+	  "amount": "380",
+	  "legendID": 3
+	},
+	{
+	  "amount": "999",
+	  "legendID": 4
+	}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Boston Red Sox",
+      "sales": [
+	{
+	  "amount": "2560",
+	  "legendID": 1
+	},
+	{
+	  "amount": "1270",
+	  "legendID": 2
+	},
+	{
+	  "amount": "500",
+	  "legendID": 3
+	},
+	{
+	  "amount": "899",
+	  "legendID": 4
+	}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Chicago White Sox",
+      "sales": [
+	{
+	  "amount": "312",
+	  "legendID": 1
+	},
+	{
+	  "amount": "1373",
+	  "legendID": 2
+	},
+	{
+	  "amount": "787",
+	  "legendID": 3
+	},
+	{
+	  "amount": "526",
+	  "legendID": 4
+	}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Colorado Rockies",
+      "sales": [
+	{
+	  "amount": "1888",
+	  "legendID": 1
+	},
+	{
+	  "amount": "293",
+	  "legendID": 2
+	},
+	{
+	  "amount": "1636",
+	  "legendID": 3
+	},
+	{
+	  "amount": "526",
+	  "legendID": 4
+	}
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Detroit Tigers",
+      "sales": [
+	{
+	  "amount": "2573",
+	  "legendID": 1
+	},
+	{
+	  "amount": "1983",
+	  "legendID": 2
+	},
+	{
+	  "amount": "2893",
+	  "legendID": 3
+	},
+	{
+	  "amount": "3133",
+	  "legendID": 4
+	}
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cansas City Royals",
+      "sales": [
+	{
+	  "amount": "521",
+	  "legendID": 1
+	},
+	{
+	  "amount": "301",
+	  "legendID": 2
+	},
+	{
+	  "amount": "1031",
+	  "legendID": 3
+	},
+	{
+	  "amount": "1520",
+	  "legendID": 4
+	}
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Los Angeles Dodgers",
+      "sales": [
+	{
+	  "amount": "1500",
+	  "legendID": 1
+	},
+	{
+	  "amount": "1240",
+	  "legendID": 2
+	},
+	{
+	  "amount": "1890",
+	  "legendID": 3
+	},
+	{
+	  "amount": "2200",
+	  "legendID": 4
+	}
+      ]
+    }
+  ],
+  "legends": [
+    {
+      "id": 1,
+      "name": "coolers",
+      "color": "#1abc9c"
+    },
+    {
+      "id": 2,
+      "name": "lanyards w/buckle",
+      "color": "#e67e22"
+    },
+    {
+      "id": 3,
+      "name": "plastic signs",
+      "color": "#9b59b6"
+    },
+    {
+      "id": 4,
+      "name": "pqp 12x30",
+      "color": "#95a5a6"
+    },
+    {
+      "id": 5,
+      "name": "travel mugs",
+      "color": "#3498db"
+    }
+  ]
+}
