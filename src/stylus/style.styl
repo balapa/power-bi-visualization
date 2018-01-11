@@ -19,9 +19,18 @@ header
 	background primeGradient
 	top 0
 
-.base-wrapper
-	width 1204px
-	margin 0 auto
+@media (min-width: 1204px)
+	.base-wrapper
+		width 1204px
+		margin 0 auto
+
+@media (max-width: 1204px)
+	.base-wrapper
+		padding 0 30px
+
+	.row
+		> div:first-child
+			margin-bottom 50px
 
 section
 	padding 100px 0
