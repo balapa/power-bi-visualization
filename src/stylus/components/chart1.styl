@@ -9,6 +9,18 @@
 	position relative
 	padding-top 15px
 
+	.prices
+		position relative
+
+		&:after
+			content "$0K"
+			position absolute
+			left 0
+			bottom 0
+			margin-bottom -9.5px
+			padding-right 5px
+			background #fff
+
 	.price-wrapper
 		height 100px
 		position relative
@@ -100,6 +112,9 @@
 		cursor pointer
 		transition .3s all ease
 		-webkit-backface-visibility hidden
+
+		&.hidden
+			opacity .25
 
 		&:hover
 			opacity .5

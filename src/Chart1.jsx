@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import data from "./data.json";
 import "./css/style.css";
 
-// const compareNumbers = (a, b)=> a - b;
-
 class Chart1 extends Component {
 
 	constructor(){
@@ -11,12 +9,23 @@ class Chart1 extends Component {
 		this.state = {
 			legends: data.legends,
 			teams: data.teams,
-			sales: data.sales
+			sales: data.sales,
+			currentLegend: 0
 		}
 	}
 
 	handleClick = (e)=> {
 		e.preventDefault();
+		this.setState({
+			currentLegend: parseInt(e.target.getAttribute("data-legendid"), 10)
+		});
+	}
+
+	restoreSalesVisibility = (e) => {
+		e.stopPropagation();
+		// this.setState({
+		// 	currentLegend: 0
+		// });
 	}
 
 	render() {
@@ -58,15 +67,25 @@ class Chart1 extends Component {
 						</div>
 					</div>
 
-					<div className="teams">
+					<div className="teams" onClick={this.restoreSalesVisibility}>
 						{
-							teams.map(el=> {
+							teams.map(el=>
 
-								return <div key={el.id} className="team-wrapper" style={flexBasis}>
-									<div className="team">{el.name}</div>
+								<div key={el.id} className="team-wrapper" style={flexBasis}>
+								<div className="team">{el.name}</div>
 									{
 										sales.map((salesEl, index, arr)=> {
-											if(salesEl.teamID === el.id){
+
+											// if currentlegend is similar to salesEl legendid, show the salesEl
+											if (this.state.currentLegend === salesEl.legendID) {
+												salesEl.isHidden = false;
+											} else if (this.state.currentLegend === 0) { 
+												salesEl.isHidden = false;
+											} else {
+												salesEl.isHidden = true;
+											}
+
+											if (salesEl.teamID === el.id) {
 
 												const saleStyle = {
 													bottom: salesEl.amount / 10,
@@ -81,7 +100,7 @@ class Chart1 extends Component {
 
 												(salesEl.isHidden) ? saleClass = "sale hidden" : saleClass = "sale";
 
-												return <div key={index} className={saleClass} style={saleStyle} onClick={this.handleClick} data-index={index}>
+												return <div key={index} className={saleClass} style={saleStyle} onClick={this.handleClick} data-index={index} data-legendid={salesEl.legendID}>
 													<div className="amount">${salesEl.amount}</div>
 													<div className="sale-ball" style={ballStyle}></div>
 												</div>
@@ -91,7 +110,7 @@ class Chart1 extends Component {
 										})
 									}
 								</div>
-							})
+							)
 						}
 					</div>
 				</div>
