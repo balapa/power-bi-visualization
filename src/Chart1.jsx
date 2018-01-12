@@ -10,22 +10,19 @@ class Chart1 extends Component {
 			legends: data.legends,
 			teams: data.teams,
 			sales: data.sales,
-			currentLegend: 0
+			currentLegend: data.legends.map(x=> x.id) // get all ids from legends object, we need the ids to highlight the related dots
 		}
 	}
 
 	handleClick = (e)=> {
 		e.preventDefault();
 		this.setState({
-			currentLegend: parseInt(e.target.getAttribute("data-legendid"), 10)
+			currentLegend: [parseInt(e.target.getAttribute("data-legendid"), 10)]
 		});
 	}
 
 	restoreSalesVisibility = (e) => {
 		e.stopPropagation();
-		// this.setState({
-		// 	currentLegend: 0
-		// });
 	}
 
 	render() {
@@ -67,6 +64,21 @@ class Chart1 extends Component {
 						</div>
 					</div>
 
+					{
+						sales.forEach(salesEl=> {
+
+							salesEl.isHidden = true;
+
+							// if currentlegend is similar to salesEl legendid, show the salesEl
+							this.state.currentLegend.forEach((currentLegend, index)=> {
+								console.log(currentLegend);
+
+								if (currentLegend === salesEl.legendID) salesEl.isHidden = false;
+
+							})
+						})
+					}
+
 					<div className="teams" onClick={this.restoreSalesVisibility}>
 						{
 							teams.map(el=>
@@ -75,15 +87,6 @@ class Chart1 extends Component {
 								<div className="team">{el.name}</div>
 									{
 										sales.map((salesEl, index, arr)=> {
-
-											// if currentlegend is similar to salesEl legendid, show the salesEl
-											if (this.state.currentLegend === salesEl.legendID) {
-												salesEl.isHidden = false;
-											} else if (this.state.currentLegend === 0) { 
-												salesEl.isHidden = false;
-											} else {
-												salesEl.isHidden = true;
-											}
 
 											if (salesEl.teamID === el.id) {
 
