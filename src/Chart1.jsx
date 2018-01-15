@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import data from "./data.json";
 import "./css/style.css";
+import MultiSelectField from './MultiSelectField';
 
 class Chart1 extends Component {
 
@@ -8,6 +9,7 @@ class Chart1 extends Component {
 		super();
 		this.state = {
 			legends: data.legends,
+			labeledLegends: data.legends.map(x=> { return { label: x.name, value: x.id } }),
 			teams: data.teams,
 			sales: data.sales,
 			currentLegend: data.legends.map(x=> x.id) // get all ids from legends object, we need the ids to highlight the related dots
@@ -15,14 +17,9 @@ class Chart1 extends Component {
 	}
 
 	handleClick = (e)=> {
-		e.preventDefault();
 		this.setState({
 			currentLegend: [parseInt(e.target.getAttribute("data-legendid"), 10)]
 		});
-	}
-
-	restoreSalesVisibility = (e) => {
-		e.stopPropagation();
 	}
 
 	render() {
@@ -36,6 +33,18 @@ class Chart1 extends Component {
 
 		return (
 			<div>
+
+				<div className="filter-wrapper">
+					<MultiSelectField placeholder="Filter products" items={this.state.labeledLegends} onChange={(arr)=> {
+
+						let selectedLegends = arr;
+						if(isNaN(selectedLegends[0])) selectedLegends = data.legends.map(x=> x.id);
+						console.log(selectedLegends);
+						this.setState({ currentLegend: selectedLegends });
+
+					}}/>
+				</div>
+
 				<div className="legend-list">
 					{
 						legends.map(el=> {
@@ -49,6 +58,7 @@ class Chart1 extends Component {
 				</div>
 
 				<div className="chart">
+
 					<div className="prices">
 						<div className="price-wrapper">
 							<div className="price">$4K</div>
@@ -71,7 +81,6 @@ class Chart1 extends Component {
 
 							// if currentlegend is similar to salesEl legendid, show the salesEl
 							this.state.currentLegend.forEach((currentLegend, index)=> {
-								console.log(currentLegend);
 
 								if (currentLegend === salesEl.legendID) salesEl.isHidden = false;
 
@@ -91,8 +100,8 @@ class Chart1 extends Component {
 											if (salesEl.teamID === el.id) {
 
 												const saleStyle = {
-													bottom: salesEl.amount / 10,
-													zIndex: arr.length * 10 - Math.round(salesEl.amount/100)
+													bottom: (salesEl.amount / 10) - (salesEl.amount / 10 * 0.1),
+													zIndex: arr.length * 10 - Math.round(salesEl.amount/10)
 												}
 
 												const ballStyle = {
