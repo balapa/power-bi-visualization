@@ -1,0 +1,23 @@
+input
+	padding 10px 15px
+	font-size 1rem
+	border 1px solid #ddd
+	transition .3s all ease
+
+	&:focus
+		border-color primeBlue
+
+.filter-wrapper
+	position relative
+
+	.completions
+		width 100%
+		border 1px solid #ddd
+		border-top none
+		box-sizing border-box
+
+		.completion-item
+			padding 8px 15px
+
+			&:not(:last-child)
+				border-bottom 1px solid #ddd

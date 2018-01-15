@@ -1,8 +1,23 @@
+.filter-wrapper
+	.Select-control
+		height 38px
+
+	.Select-input > input
+		width 100% !important
+
+	.Select-menu-outer
+		box-sizing border-box
+		z-index 99
+		// width calc(100% - 1px)
+
 #chart-wrapper
-	// border 1px solid red
-	// border-bottom 35px solid transparent
-	// padding 50px
-	// box-sizing border-box
+	input
+		box-sizing border-box
+		width 100%
+
+	.filter-wrapper
+		margin-bottom 25px
+		width 50%
 
 .chart
 	border-bottom 1px solid graphBorderColor
@@ -22,7 +37,7 @@
 			background #fff
 
 	.price-wrapper
-		height 100px
+		height 90px
 		position relative
 
 		&:before
@@ -117,7 +132,9 @@
 			opacity .15
 
 		&:hover
-			opacity .5
+			// opacity .5
+			.sale-ball
+				transform scale(1.5)
 
 		.amount
 			font-size .6rem
@@ -130,6 +147,7 @@
 			background red
 			display block
 			margin 0 auto
+			transition .3s all ease
 
 		.amount, .sale-ball
 			pointer-events none

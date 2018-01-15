@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import "base/reset.css"
 @import "base/flexboxgrid.css"
+@import "base/font.css"
 @import "base/color"
+@import "base/input"
 
 graphBorderColor = #ddd
 ballBase = 8px
 headerHeight = 60px
 
+// fonts
+gil = "Gilroy"
+gilReg = "Gilroy-Regular"
+gilSem = "Gilroy-SemiBold"
+gilLig = "Gilroy-Light"
+gilExt = "Gilroy-ExtraBold"
+
 body
 	font-size 16px
-	font-family "Roboto"
+	font-family "Roboto", sans-serif
 	padding-top headerHeight
 
 header
@@ -18,6 +27,7 @@ header
 	height headerHeight
 	background primeGradient
 	top 0
+	z-index 99
 
 @media (min-width: 1204px)
 	.base-wrapper
@@ -37,6 +47,7 @@ section
 
 	.content-wrapper
 		padding-right 50px
+		font-family gilLig
 	// 	background #f6f9fc
 
 	.row > div
