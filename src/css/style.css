@@ -1133,6 +1133,10 @@ p {
 }
 .filter-wrapper .Select-input > input {
   width: 100% !important;
+  line-height: 19px;
+}
+.filter-wrapper .Select-placeholder {
+  line-height: 35px;
 }
 .filter-wrapper .Select-menu-outer {
   box-sizing: border-box;
@@ -1144,7 +1148,7 @@ p {
 }
 #chart-wrapper .filter-wrapper {
   margin-bottom: 25px;
-  width: 50%;
+  width: 100%;
 }
 .chart {
   border-bottom: 1px solid #ddd;
