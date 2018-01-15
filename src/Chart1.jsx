@@ -8,10 +8,18 @@ class Chart1 extends Component {
 	constructor(){
 		super();
 		this.state = {
-			legends: data.legends,
-			labeledLegends: data.legends.map(x=> { return { label: x.name, value: x.id } }),
+			legends: data.legends.map(x=> {
+				return {
+					label: x.name,
+					value: x.id,
+					name: x.name,
+					color: x.color,
+					id: x.id
+				}
+			}),
 			teams: data.teams,
 			sales: data.sales,
+			autocompleteValue: [],
 			currentLegend: data.legends.map(x=> x.id) // get all ids from legends object, we need the ids to highlight the related dots
 		}
 	}
@@ -34,17 +42,6 @@ class Chart1 extends Component {
 		return (
 			<div>
 
-				<div className="filter-wrapper">
-					<MultiSelectField placeholder="Filter products" items={this.state.labeledLegends} onChange={(arr)=> {
-
-						let selectedLegends = arr;
-						if(isNaN(selectedLegends[0])) selectedLegends = data.legends.map(x=> x.id);
-						console.log(selectedLegends);
-						this.setState({ currentLegend: selectedLegends });
-
-					}}/>
-				</div>
-
 				<div className="legend-list">
 					{
 						legends.map(el=> {
@@ -55,6 +52,17 @@ class Chart1 extends Component {
 							</div>
 						})
 					}
+				</div>
+
+				<div className="filter-wrapper">
+					<MultiSelectField placeholder="Filter products" items={this.state.legends} onChange={(arr)=> {
+
+						let selectedLegends = arr;
+						if(isNaN(selectedLegends[0])) selectedLegends = data.legends.map(x=> x.id);
+						console.log(selectedLegends);
+						this.setState({ currentLegend: selectedLegends });
+
+					}}/>
 				</div>
 
 				<div className="chart">
