@@ -1,0 +1,252 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Angels"
+    },
+    {
+      "id": 2,
+      "name": "Baltimore Orioles"
+    },
+    {
+      "id": 3,
+      "name": "Boston Red Sox"
+    },
+    {
+      "id": 4,
+      "name": "Chicago White Sox"
+    },
+    {
+      "id": 5,
+      "name": "Colorado Rockies"
+    },
+    {
+      "id": 6,
+      "name": "Detroit Tigers"
+    },
+    {
+      "id": 7,
+      "name": "Cansas City Royals"
+    },
+    {
+      "id": 8,
+      "name": "Los Angeles Dodgers"
+    }
+  ],
+  "legends": [
+    {
+      "id": 1,
+      "name": "coolers",
+      "color": "#1abc9c"
+    },
+    {
+      "id": 2,
+      "name": "lanyards w/buckle",
+      "color": "#e67e22"
+    },
+    {
+      "id": 3,
+      "name": "plastic signs",
+      "color": "#9b59b6"
+    },
+    {
+      "id": 4,
+      "name": "pqp 12x30",
+      "color": "#3498db"
+    }
+  ],
+  "sales": [
+    {
+      "amount": "1000",
+      "legendID": 1,
+      "teamID": 1,
+      "isHidden": false
+    },
+    {
+      "amount": "1250",
+      "legendID": 2,
+      "teamID": 1,
+      "isHidden": false
+    },
+    {
+      "amount": "1792",
+      "legendID": 3,
+      "teamID": 1,
+      "isHidden": false
+    },
+    {
+      "amount": "3100",
+      "legendID": 4,
+      "teamID": 1,
+      "isHidden": false
+    },
+    {
+      "amount": "777",
+      "legendID": 1,
+      "teamID": 2,
+      "isHidden": false
+    },
+    {
+      "amount": "128",
+      "legendID": 2,
+      "teamID": 2,
+      "isHidden": false
+    },
+    {
+      "amount": "380",
+      "legendID": 3,
+      "teamID": 2,
+      "isHidden": false
+    },
+    {
+      "amount": "999",
+      "legendID": 4,
+      "teamID": 2,
+      "isHidden": false
+    },
+    {
+      "amount": "2560",
+      "legendID": 1,
+      "teamID": 3,
+      "isHidden": false
+    },
+    {
+      "amount": "1270",
+      "legendID": 2,
+      "teamID": 3,
+      "isHidden": false
+    },
+    {
+      "amount": "500",
+      "legendID": 3,
+      "teamID": 3,
+      "isHidden": false
+    },
+    {
+      "amount": "899",
+      "legendID": 4,
+      "teamID": 3,
+      "isHidden": false
+    },
+    {
+      "amount": "312",
+      "legendID": 1,
+      "teamID": 4,
+      "isHidden": false
+    },
+    {
+      "amount": "1373",
+      "legendID": 2,
+      "teamID": 4,
+      "isHidden": false
+    },
+    {
+      "amount": "787",
+      "legendID": 3,
+      "teamID": 4,
+      "isHidden": false
+    },
+    {
+      "amount": "526",
+      "legendID": 4,
+      "teamID": 4,
+      "isHidden": false
+    },
+    {
+      "amount": "1888",
+      "legendID": 1,
+      "teamID": 5,
+      "isHidden": false
+    },
+    {
+      "amount": "293",
+      "legendID": 2,
+      "teamID": 5,
+      "isHidden": false
+    },
+    {
+      "amount": "1636",
+      "legendID": 3,
+      "teamID": 5,
+      "isHidden": false
+    },
+    {
+      "amount": "526",
+      "legendID": 4,
+      "teamID": 5,
+      "isHidden": false
+    },
+    {
+      "amount": "2573",
+      "legendID": 1,
+      "teamID": 6,
+      "isHidden": false
+    },
+    {
+      "amount": "1983",
+      "legendID": 2,
+      "teamID": 6,
+      "isHidden": false
+    },
+    {
+      "amount": "2893",
+      "legendID": 3,
+      "teamID": 6,
+      "isHidden": false
+    },
+    {
+      "amount": "3133",
+      "legendID": 4,
+      "teamID": 6,
+      "isHidden": false
+    },
+    {
+      "amount": "521",
+      "legendID": 1,
+      "teamID": 7,
+      "isHidden": false
+    },
+    {
+      "amount": "301",
+      "legendID": 2,
+      "teamID": 7,
+      "isHidden": false
+    },
+    {
+      "amount": "1031",
+      "legendID": 3,
+      "teamID": 7,
+      "isHidden": false
+    },
+    {
+      "amount": "1520",
+      "legendID": 4,
+      "teamID": 7,
+      "isHidden": false
+    },
+    {
+      "amount": "1500",
+      "legendID": 1,
+      "teamID": 8,
+      "isHidden": false
+    },
+    {
+      "amount": "1240",
+      "legendID": 2,
+      "teamID": 8,
+      "isHidden": false
+    },
+    {
+      "amount": "1890",
+      "legendID": 3,
+      "teamID": 8,
+      "isHidden": false
+    },
+    {
+      "amount": "2200",
+      "legendID": 4,
+      "teamID": 8,
+      "isHidden": false
+    }
+  ]
+}
