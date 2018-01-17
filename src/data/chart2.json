@@ -1,0 +1,52 @@
+{
+  "universityList": [
+    {
+      "name": "new-york university",
+      "score": 96.05
+    },
+    {
+      "name": "columbia university",
+      "score": 93.78
+    },
+    {
+      "name": "cornell university",
+      "score": 93.10
+    },
+    {
+      "name": "fordham university",
+      "score": 87.03
+    },
+    {
+      "name": "brooklyn law school",
+      "score": 86.02
+    },
+    {
+      "name": "cardozo school of law",
+      "score": 84.49
+    },
+    {
+      "name": "syracuse university",
+      "score": 81.02
+    },
+    {
+      "name": "city university of new york",
+      "score": 79.23
+    },
+    {
+      "name": "university of buffalo-suny",
+      "score": 77.19
+    },
+    {
+      "name": "albany law school of union university",
+      "score": 74.02
+    },
+    {
+      "name": "new york law school",
+      "score": 71.41
+    },
+    {
+      "name": "touro college",
+      "score": 62.19
+    }
+  ]
+}
