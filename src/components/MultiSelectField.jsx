@@ -32,13 +32,11 @@ var MultiSelectField = createClass({
 	},
 
 	render () {
-		const { disabled, stayOpen } = this.state;
 
 		return (
 			<div className="section">
 				<Select
-					closeOnSelect={stayOpen}
-					disabled={disabled}
+					closeOnSelect={(parseInt(this.props.closeOnSelect, 10) > 0) ? true : false}
 					multi
 					onChange={this.handleSelectChange}
 					options={this.props.items}
