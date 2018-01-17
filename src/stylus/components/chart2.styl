@@ -1,0 +1,82 @@
+#chart2-wrapper
+	position relative
+
+	.chart
+		position relative
+		min-height 415px
+		display flex
+
+	.filter-wrapper
+		margin-bottom 25px
+		width 100%
+
+	.univ-list
+		position relative
+		z-index 9
+		width 100%
+		margin-top auto
+		margin-bottom auto
+
+	.univ-item
+		font-size .7rem
+
+		&:not(:last-child)
+			margin-bottom 5px
+
+	.univ-name
+		margin-bottom 2px
+		text-transform uppercase
+
+	.univ-stats
+		height 15px
+		font-size .6rem
+		background rgb(0, 157, 255)
+		line-height 16px
+		text-align right
+		color white
+		padding-right 5px
+		box-sizing border-box
+
+	.level-list
+		display flex
+		position absolute
+		top 0
+		left 0
+		right 0
+		bottom 0
+
+		.level-amount
+			margin-top auto
+			margin-left auto
+			transform translateX(50%)
+			font-size .7rem
+			color #777
+			position relative
+			top 20px
+
+		.level-item:first-child::after
+			// content "$0"
+			transform translateX(-50%)
+			font-size .7rem
+			color #777
+			left 0
+			bottom -20px
+			position absolute
+
+		.level-item
+			display flex
+			flex-basis 20%
+			z-index 0
+			position relative
+
+			// &:first-child:after
+			// 	content "0%"
+
+			&:before
+				content ""
+				position absolute
+				top 0
+				right 0
+				bottom 0
+				width 1px
+				background secondaryGrey

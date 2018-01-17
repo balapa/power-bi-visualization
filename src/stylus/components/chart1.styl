@@ -1,6 +1,7 @@
 .filter-wrapper
 	.Select-control
 		height 38px
+		overflow unset
 
 	.Select-input > input
 		width 100% !important
@@ -11,8 +12,7 @@
 
 	.Select-menu-outer
 		box-sizing border-box
-		z-index 99
-		// width calc(100% - 1px)
+		z-index 98
 
 #chart-wrapper
 	input
@@ -23,74 +23,76 @@
 		margin-bottom 25px
 		width 100%
 
-.chart
-	border-bottom 1px solid graphBorderColor
-	position relative
-	padding-top 15px
-
-	.prices
+	.chart
+		border-bottom 1px solid graphBorderColor
 		position relative
+		padding-top 15px
 
-		&:after
-			content "$0K"
-			position absolute
-			left 0
-			bottom 0
-			margin-bottom -9.5px
-			padding-right 5px
-			background #fff
-
-	.price-wrapper
-		height 90px
-		position relative
-
-		&:before
-			content ""
-			position absolute
-			left 0
-			right 0
-			top 0
-			height 1px
-			background graphBorderColor
-
-		.price
-			padding-right 5px
-			background white
-			display inline-block
+		.prices
 			position relative
-			transform translateY(-50%)
 
-	.teams
-		position absolute
-		top 0
-		left 33px
-		right 0
-		bottom 0
-		display flex
+			&:after
+				content "$0K"
+				color #999
+				position absolute
+				left 0
+				bottom 0
+				margin-bottom -9.5px
+				padding-right 5px
+				background #fff
 
-		.team-wrapper
-			display flex
+		.price-wrapper
+			height 90px
 			position relative
 
 			&:before
-				content	""
+				content ""
 				position absolute
+				left 0
+				right 0
 				top 0
-				left 50%
-				bottom 0
-				width 1px
+				height 1px
 				background graphBorderColor
 
-			.team
-				font-size .7rem
-				padding 0 10px
-				box-sizing border-box
-				text-align center
-				width 100%
-				position absolute
-				width 100%
-				bottom -15px
-				height 0
+			.price
+				padding-right 5px
+				background white
+				color #999
+				display inline-block
+				position relative
+				transform translateY(-50%)
+
+		.teams
+			position absolute
+			top 0
+			left 33px
+			right 0
+			bottom 0
+			display flex
+
+			.team-wrapper
+				display flex
+				position relative
+
+				&:before
+					content	""
+					position absolute
+					top 0
+					left 50%
+					bottom 0
+					width 1px
+					background graphBorderColor
+
+				.team
+					font-size .7rem
+					padding 0 10px
+					box-sizing border-box
+					text-align center
+					width 100%
+					position absolute
+					width 100%
+					bottom -15px
+					height 0
 
 
 
