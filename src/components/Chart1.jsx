@@ -56,7 +56,7 @@ class Chart1 extends Component {
 				</div>
 
 				<div className="filter-wrapper">
-					<MultiSelectField placeholder="Filter products" items={this.state.legends} onChange={(arr, value)=> {
+					<MultiSelectField closeOnSelect="0" placeholder="Filter products" items={this.state.legends} onChange={(arr, value)=> {
 
 						let selectedLegends = arr;
 						if(isNaN(selectedLegends[0])) selectedLegends = data.legends.map(x=> x.id);
