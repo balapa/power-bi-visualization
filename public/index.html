@@ -15,17 +15,11 @@
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
 
-					{
-						// sales.forEach((salesEl, index, arr)=> {
-
-
-						// })
-					}
-
       Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/fo">
     <title>Power BI Visualization</title>
   </head>
   <body>
@@ -35,12 +29,13 @@
     
     <header></header>
 
+    <!-- first section : chart1 -->
     <section>
       <div class="base-wrapper">
         <div class="row">
           <div class="col-md-5 col-sm-12 col-xs-12 content-wrapper">
-
             <div class="content">
+              <div id="autocomplete"></div>
               <h2>TEAM AND PRODUCT</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <p>Try the demo.</p>
@@ -54,6 +49,28 @@
         </div>
       </div>
     </section>
+
+    <!-- second section : chart2 -->
+    <section>
+      <div class="base-wrapper">
+        <div class="row">
+          <div class="col-md-5 col-sm-12 col-xs-12 content-wrapper">
+            <div class="content">
+              <div id="autocomplete"></div>
+              <h2>UNIVERSITY STATISTICS</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>Try the demo.</p>
+              <a class="button" href="">call to action</a>
+            </div>
+          </div>
+
+          <div class="col-md-7 col-sm-12 col-xs-12">
+            <div id="chart2-wrapper"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -65,4 +82,5 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.0/awesomplete.min.js"></script>
 </html>
