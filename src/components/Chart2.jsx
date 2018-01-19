@@ -4,7 +4,7 @@ import data from "./../data/chart2.json";
 import "./../css/style.css";
 import MultiSelectField from './MultiSelectField';
 
-var Chart2 = createClass({
+const Chart2 = createClass({
 	displayName: "Chart2",
 	getInitialState() {
 		return {
@@ -20,9 +20,6 @@ var Chart2 = createClass({
 			autocompleteValue: [],
 			currentList: data.universityList.map((item, index)=> index)
 		}
-	},
-
-	handleClick() {
 	},
 
 	render() {
