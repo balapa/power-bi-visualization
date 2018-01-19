@@ -26,8 +26,8 @@ class Chart1 extends Component {
 
 	handleClick = (e)=> {
 		this.setState({
-			currentLegend: [parseInt(e.target.getAttribute("data-legendid"), 10)],
-			autocompleteValue: e.target.getAttribute("data-legendid")
+			currentLegend: [parseInt(e.target.dataset.legendid, 10)],
+			autocompleteValue: e.target.dataset.legendid
 		});
 	}
 
@@ -111,7 +111,7 @@ class Chart1 extends Component {
 											if (salesEl.teamID === el.id) {
 
 												const saleStyle = {
-													bottom: (salesEl.amount / 10) - (salesEl.amount / 10 * 0.1),
+													bottom: salesEl.amount / 11.1111111111,
 													zIndex: arr.length - Math.round(salesEl.amount/100)
 												}
 
