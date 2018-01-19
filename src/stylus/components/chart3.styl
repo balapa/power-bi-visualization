@@ -1,0 +1,170 @@
+ballBase = 10px
+chartBorder = white
+chartBorderSecondary = rgba(255,255,255,.5)
+
+#chart3-wrapper
+
+	.checkbox-filters-wrapper
+		text-align left
+
+	.checkbox-filter
+		display inline-block
+
+		&:not(:last-child)
+			margin-right 30px
+
+		h3
+			margin-bottom 7px
+
+	.chart
+		width 500px
+		min-height 450px
+		background #e6e8ea
+		// margin 0 auto
+		margin-top 30px
+		display flex
+		position relative
+
+	.x-axis
+		margin-top auto
+		width 100%
+
+		.line
+			height 125px
+			// background red
+			position relative
+
+			.line-content
+				z-index 9
+				color #777
+				font-size .7rem
+				transform translateY(-50%) translateX(-100%)
+				padding-right 6px
+				display inline-block
+				position absolute
+
+			&:before
+				content ""
+				position absolute
+				top 0
+				left 0
+				right 0
+				height 1px
+				background chartBorder
+
+			&:after
+				content ""
+				position absolute
+				top 50%
+				left 0
+				right 0
+				height 1px
+				background chartBorderSecondary
+
+	.y-axis
+		position absolute
+		top 0
+		left 10px
+		right 10px
+		bottom 0
+		display flex
+		border-left 1px solid chartBorder
+
+		.line
+			width 125px
+			position relative
+			display flex
+
+			.line-content
+				z-index 9
+				color #777
+				font-size .7rem
+				// position absolute
+				bottom 0
+				margin-left auto
+				margin-top auto
+				display inline-block
+				transform translate(50%, 100%)
+				
+
+			&:before
+				content ""
+				position absolute
+				left 50%
+				top 0
+				bottom 0
+				width 1px
+				background chartBorderSecondary
+
+			&:after
+				content ""
+				position absolute
+				top 0
+				right 0
+				bottom 0
+				width 1px
+				background chartBorder
+
+	.flight-ball
+		position absolute
+		width ballBase
+		height ballBase
+		border-radius 50%
+		z-index 9
+		// border 1px solid #e4e4e4
+		transition .3s all ease
+		box-sizing border-box
+		transform translate(-50%, 50%)
+
+		&.hidden
+			opacity 0
+			transform translate(-50%, 50%) scale(1.5)
+
+.airport-codes
+	display flex
+
+.code-item
+	display flex
+	cursor pointer
+
+	&.active
+		.code-checkbox
+			background primeBlue
+			border-color primeBlue
+
+			.checkmark
+				stroke-dashoffset -32px
+
+	&:not(:last-child)
+		margin-right 10px
+
+	.code-checkbox, .code-content
+		pointer-events none
+
+	.code-checkbox
+		checkboxBase = 15px
+		width checkboxBase
+		height checkboxBase
+		border 2px solid #bbb
+		// box-sizing border-box
+		transition .3s all ease
+		position relative
+
+		svg
+			position absolute
+			display block
+			top 0
+			left 0
+
+		.checkmark
+			transition .3s all ease
+			stroke-dasharray 16px
+			stroke-dashoffset -16px
+
+	.code-content
+		line-height 19px
+		font-size .7rem
+		margin-left 5px
+		color #aaa
+		text-transform uppercase
+		letter-spacing 1px
