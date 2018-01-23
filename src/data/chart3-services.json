@@ -8,7 +8,7 @@
     "airport_code": "ATL",
     "flights": 5435,
     "seats": 757630,
-    "Quantity": 19
+    "Quantity": 92
   },
   {
     "AirportDate": "42736JFK",
@@ -19,7 +19,7 @@
     "airport_code": "JFK",
     "flights": 4607,
     "seats": 739474,
-    "Quantity": 634
+    "Quantity": 328
   },
   {
     "AirportDate": "42736LAX",
@@ -30,7 +30,7 @@
     "airport_code": "LAX",
     "flights": 6068,
     "seats": 901498,
-    "Quantity": 87
+    "Quantity": 61
   },
   {
     "AirportDate": "42736LGA",
@@ -41,7 +41,7 @@
     "airport_code": "LGA",
     "flights": 1142,
     "seats": 132620,
-    "Quantity": 1
+    "Quantity": 32
   },
   {
     "AirportDate": "42737ATL",
@@ -52,7 +52,7 @@
     "airport_code": "ATL",
     "flights": 6402,
     "seats": 871071,
-    "Quantity": 21
+    "Quantity": 179
   },
   {
     "AirportDate": "42737JFK",
@@ -63,7 +63,7 @@
     "airport_code": "JFK",
     "flights": 4958,
     "seats": 786912,
-    "Quantity": 809
+    "Quantity": 291
   },
   {
     "AirportDate": "42737LAX",
@@ -74,7 +74,7 @@
     "airport_code": "LAX",
     "flights": 6482,
     "seats": 955058,
-    "Quantity": 115
+    "Quantity": 114
   },
   {
     "AirportDate": "42737LGA",
@@ -85,7 +85,7 @@
     "airport_code": "LGA",
     "flights": 1512,
     "seats": 165121,
-    "Quantity": 9
+    "Quantity": 31
   },
   {
     "AirportDate": "42738ATL",
@@ -96,7 +96,7 @@
     "airport_code": "ATL",
     "flights": 6279,
     "seats": 856564,
-    "Quantity": 27
+    "Quantity": 188
   },
   {
     "AirportDate": "42738JFK",
@@ -107,7 +107,7 @@
     "airport_code": "JFK",
     "flights": 4632,
     "seats": 736529,
-    "Quantity": 617
+    "Quantity": 232
   },
   {
     "AirportDate": "42738LAX",
@@ -118,7 +118,7 @@
     "airport_code": "LAX",
     "flights": 6248,
     "seats": 929265,
-    "Quantity": 111
+    "Quantity": 105
   },
   {
     "AirportDate": "42738LGA",
@@ -129,7 +129,7 @@
     "airport_code": "LGA",
     "flights": 1495,
     "seats": 160271,
-    "Quantity": 10
+    "Quantity": 31
   },
   {
     "AirportDate": "42739ATL",
@@ -140,7 +140,7 @@
     "airport_code": "ATL",
     "flights": 6270,
     "seats": 852005,
-    "Quantity": 31
+    "Quantity": 129
   },
   {
     "AirportDate": "42739JFK",
@@ -151,7 +151,7 @@
     "airport_code": "JFK",
     "flights": 4488,
     "seats": 716278,
-    "Quantity": 569
+    "Quantity": 224
   },
   {
     "AirportDate": "42739LAX",
@@ -162,7 +162,7 @@
     "airport_code": "LAX",
     "flights": 6199,
     "seats": 926817,
-    "Quantity": 96
+    "Quantity": 93
   },
   {
     "AirportDate": "42739LGA",
@@ -173,7 +173,7 @@
     "airport_code": "LGA",
     "flights": 1490,
     "seats": 159761,
-    "Quantity": 3
+    "Quantity": 29
   },
   {
     "AirportDate": "42740ATL",
@@ -184,7 +184,7 @@
     "airport_code": "ATL",
     "flights": 6245,
     "seats": 848205,
-    "Quantity": 29
+    "Quantity": 146
   },
   {
     "AirportDate": "42740JFK",
@@ -195,7 +195,7 @@
     "airport_code": "JFK",
     "flights": 4568,
     "seats": 727544,
-    "Quantity": 553
+    "Quantity": 235
   },
   {
     "AirportDate": "42740LAX",
@@ -206,7 +206,7 @@
     "airport_code": "LAX",
     "flights": 6103,
     "seats": 906403,
-    "Quantity": 79
+    "Quantity": 105
   },
   {
     "AirportDate": "42740LGA",
@@ -217,7 +217,7 @@
     "airport_code": "LGA",
     "flights": 1514,
     "seats": 162236,
-    "Quantity": 10
+    "Quantity": 28
   },
   {
     "AirportDate": "42741ATL",
@@ -228,7 +228,7 @@
     "airport_code": "ATL",
     "flights": 5072,
     "seats": 720668,
-    "Quantity": 29
+    "Quantity": 149
   },
   {
     "AirportDate": "42741JFK",
@@ -239,7 +239,7 @@
     "airport_code": "JFK",
     "flights": 4429,
     "seats": 710771,
-    "Quantity": 595
+    "Quantity": 278
   },
   {
     "AirportDate": "42741LAX",
@@ -250,7 +250,7 @@
     "airport_code": "LAX",
     "flights": 6211,
     "seats": 913315,
-    "Quantity": 107
+    "Quantity": 110
   },
   {
     "AirportDate": "42741LGA",
@@ -261,7 +261,7 @@
     "airport_code": "LGA",
     "flights": 1451,
     "seats": 155971,
-    "Quantity": 3
+    "Quantity": 50
   },
   {
     "AirportDate": "42742ATL",
@@ -272,7 +272,7 @@
     "airport_code": "ATL",
     "flights": 4202,
     "seats": 625341,
-    "Quantity": 26
+    "Quantity": 163
   },
   {
     "AirportDate": "42742JFK",
@@ -283,7 +283,7 @@
     "airport_code": "JFK",
     "flights": 3104,
     "seats": 564993,
-    "Quantity": 645
+    "Quantity": 339
   },
   {
     "AirportDate": "42742LAX",
@@ -294,7 +294,7 @@
     "airport_code": "LAX",
     "flights": 5460,
     "seats": 813303,
-    "Quantity": 171
+    "Quantity": 101
   },
   {
     "AirportDate": "42742LGA",
@@ -305,7 +305,7 @@
     "airport_code": "LGA",
     "flights": 492,
     "seats": 58149,
-    "Quantity": 3
+    "Quantity": 12
   },
   {
     "AirportDate": "42743ATL",
@@ -316,7 +316,7 @@
     "airport_code": "ATL",
     "flights": 6124,
     "seats": 877894,
-    "Quantity": 29
+    "Quantity": 190
   },
   {
     "AirportDate": "42743JFK",
@@ -327,7 +327,7 @@
     "airport_code": "JFK",
     "flights": 4347,
     "seats": 688927,
-    "Quantity": 712
+    "Quantity": 401
   },
   {
     "AirportDate": "42743LAX",
@@ -338,7 +338,7 @@
     "airport_code": "LAX",
     "flights": 5933,
     "seats": 883369,
-    "Quantity": 106
+    "Quantity": 93
   },
   {
     "AirportDate": "42743LGA",
@@ -349,7 +349,7 @@
     "airport_code": "LGA",
     "flights": 1329,
     "seats": 140600,
-    "Quantity": 33
+    "Quantity": 51
   },
   {
     "AirportDate": "42744ATL",
@@ -360,7 +360,7 @@
     "airport_code": "ATL",
     "flights": 6449,
     "seats": 918631,
-    "Quantity": 15
+    "Quantity": 129
   },
   {
     "AirportDate": "42744JFK",
@@ -371,7 +371,7 @@
     "airport_code": "JFK",
     "flights": 4696,
     "seats": 721128,
-    "Quantity": 521
+    "Quantity": 223
   },
   {
     "AirportDate": "42744LAX",
@@ -382,7 +382,7 @@
     "airport_code": "LAX",
     "flights": 6103,
     "seats": 898312,
-    "Quantity": 126
+    "Quantity": 90
   },
   {
     "AirportDate": "42744LGA",
@@ -393,7 +393,7 @@
     "airport_code": "LGA",
     "flights": 1790,
     "seats": 183893,
-    "Quantity": 4
+    "Quantity": 43
   },
   {
     "AirportDate": "42745ATL",
@@ -404,7 +404,7 @@
     "airport_code": "ATL",
     "flights": 5809,
     "seats": 822364,
-    "Quantity": 36
+    "Quantity": 171
   },
   {
     "AirportDate": "42745JFK",
@@ -415,7 +415,7 @@
     "airport_code": "JFK",
     "flights": 4494,
     "seats": 682674,
-    "Quantity": 441
+    "Quantity": 225
   },
   {
     "AirportDate": "42745LAX",
@@ -426,7 +426,7 @@
     "airport_code": "LAX",
     "flights": 5754,
     "seats": 844585,
-    "Quantity": 124
+    "Quantity": 83
   },
   {
     "AirportDate": "42745LGA",
@@ -437,7 +437,7 @@
     "airport_code": "LGA",
     "flights": 1671,
     "seats": 173725,
-    "Quantity": 2
+    "Quantity": 28
   },
   {
     "AirportDate": "42746ATL",
@@ -448,7 +448,7 @@
     "airport_code": "ATL",
     "flights": 5846,
     "seats": 827622,
-    "Quantity": 27
+    "Quantity": 160
   },
   {
     "AirportDate": "42746JFK",
@@ -459,7 +459,7 @@
     "airport_code": "JFK",
     "flights": 4510,
     "seats": 676797,
-    "Quantity": 410
+    "Quantity": 209
   },
   {
     "AirportDate": "42746LAX",
@@ -470,7 +470,7 @@
     "airport_code": "LAX",
     "flights": 5932,
     "seats": 869027,
-    "Quantity": 75
+    "Quantity": 90
   },
   {
     "AirportDate": "42746LGA",
@@ -481,7 +481,7 @@
     "airport_code": "LGA",
     "flights": 1753,
     "seats": 180386,
-    "Quantity": 12
+    "Quantity": 40
   },
   {
     "AirportDate": "42747ATL",
@@ -492,7 +492,7 @@
     "airport_code": "ATL",
     "flights": 6368,
     "seats": 901337,
-    "Quantity": 26
+    "Quantity": 217
   },
   {
     "AirportDate": "42747JFK",
@@ -503,7 +503,7 @@
     "airport_code": "JFK",
     "flights": 4727,
     "seats": 710742,
-    "Quantity": 540
+    "Quantity": 257
   },
   {
     "AirportDate": "42747LAX",
@@ -514,7 +514,7 @@
     "airport_code": "LAX",
     "flights": 6064,
     "seats": 884236,
-    "Quantity": 119
+    "Quantity": 122
   },
   {
     "AirportDate": "42747LGA",
@@ -525,7 +525,7 @@
     "airport_code": "LGA",
     "flights": 1810,
     "seats": 186160,
-    "Quantity": 13
+    "Quantity": 80
   },
   {
     "AirportDate": "42748ATL",
@@ -536,7 +536,7 @@
     "airport_code": "ATL",
     "flights": 6536,
     "seats": 935014,
-    "Quantity": 47
+    "Quantity": 239
   },
   {
     "AirportDate": "42748JFK",
@@ -547,7 +547,7 @@
     "airport_code": "JFK",
     "flights": 4650,
     "seats": 710275,
-    "Quantity": 433
+    "Quantity": 325
   },
   {
     "AirportDate": "42748LAX",
@@ -558,7 +558,7 @@
     "airport_code": "LAX",
     "flights": 6138,
     "seats": 888772,
-    "Quantity": 106
+    "Quantity": 110
   },
   {
     "AirportDate": "42748LGA",
@@ -569,7 +569,7 @@
     "airport_code": "LGA",
     "flights": 1806,
     "seats": 186115,
-    "Quantity": 4
+    "Quantity": 47
   },
   {
     "AirportDate": "42749ATL",
@@ -580,7 +580,7 @@
     "airport_code": "ATL",
     "flights": 4824,
     "seats": 703779,
-    "Quantity": 48
+    "Quantity": 210
   },
   {
     "AirportDate": "42749JFK",
@@ -591,7 +591,7 @@
     "airport_code": "JFK",
     "flights": 4251,
     "seats": 674750,
-    "Quantity": 493
+    "Quantity": 240
   },
   {
     "AirportDate": "42749LAX",
@@ -602,7 +602,7 @@
     "airport_code": "LAX",
     "flights": 5215,
     "seats": 774295,
-    "Quantity": 127
+    "Quantity": 86
   },
   {
     "AirportDate": "42749LGA",
@@ -613,7 +613,7 @@
     "airport_code": "LGA",
     "flights": 826,
     "seats": 97220,
-    "Quantity": 3
+    "Quantity": 20
   },
   {
     "AirportDate": "42750ATL",
@@ -624,7 +624,7 @@
     "airport_code": "ATL",
     "flights": 5605,
     "seats": 816308,
-    "Quantity": 39
+    "Quantity": 187
   },
   {
     "AirportDate": "42750JFK",
@@ -635,7 +635,7 @@
     "airport_code": "JFK",
     "flights": 4478,
     "seats": 693326,
-    "Quantity": 498
+    "Quantity": 301
   },
   {
     "AirportDate": "42750LAX",
@@ -646,7 +646,7 @@
     "airport_code": "LAX",
     "flights": 5567,
     "seats": 821195,
-    "Quantity": 117
+    "Quantity": 73
   },
   {
     "AirportDate": "42750LGA",
@@ -657,7 +657,7 @@
     "airport_code": "LGA",
     "flights": 1140,
     "seats": 129314,
-    "Quantity": 18
+    "Quantity": 37
   },
   {
     "AirportDate": "42751ATL",
@@ -668,7 +668,7 @@
     "airport_code": "ATL",
     "flights": 6513,
     "seats": 928453,
-    "Quantity": 26
+    "Quantity": 200
   },
   {
     "AirportDate": "42751JFK",
@@ -679,7 +679,7 @@
     "airport_code": "JFK",
     "flights": 4701,
     "seats": 711491,
-    "Quantity": 448
+    "Quantity": 268
   },
   {
     "AirportDate": "42751LAX",
@@ -690,7 +690,7 @@
     "airport_code": "LAX",
     "flights": 6077,
     "seats": 884359,
-    "Quantity": 135
+    "Quantity": 94
   },
   {
     "AirportDate": "42751LGA",
@@ -701,7 +701,7 @@
     "airport_code": "LGA",
     "flights": 1765,
     "seats": 181109,
-    "Quantity": 10
+    "Quantity": 49
   },
   {
     "AirportDate": "42752ATL",
@@ -712,7 +712,7 @@
     "airport_code": "ATL",
     "flights": 5908,
     "seats": 835822,
-    "Quantity": 25
+    "Quantity": 194
   },
   {
     "AirportDate": "42752JFK",
@@ -723,7 +723,7 @@
     "airport_code": "JFK",
     "flights": 4431,
     "seats": 666486,
-    "Quantity": 312
+    "Quantity": 213
   },
   {
     "AirportDate": "42752LAX",
@@ -734,7 +734,7 @@
     "airport_code": "LAX",
     "flights": 5771,
     "seats": 837321,
-    "Quantity": 86
+    "Quantity": 85
   },
   {
     "AirportDate": "42752LGA",
@@ -745,7 +745,7 @@
     "airport_code": "LGA",
     "flights": 1730,
     "seats": 177739,
-    "Quantity": 6
+    "Quantity": 41
   },
   {
     "AirportDate": "42753ATL",
@@ -756,7 +756,7 @@
     "airport_code": "ATL",
     "flights": 5910,
     "seats": 838013,
-    "Quantity": 30
+    "Quantity": 174
   },
   {
     "AirportDate": "42753JFK",
@@ -767,7 +767,7 @@
     "airport_code": "JFK",
     "flights": 4532,
     "seats": 679385,
-    "Quantity": 413
+    "Quantity": 222
   },
   {
     "AirportDate": "42753LAX",
@@ -778,7 +778,7 @@
     "airport_code": "LAX",
     "flights": 5865,
     "seats": 851593,
-    "Quantity": 82
+    "Quantity": 81
   },
   {
     "AirportDate": "42753LGA",
@@ -789,7 +789,7 @@
     "airport_code": "LGA",
     "flights": 1758,
     "seats": 180930,
-    "Quantity": 3
+    "Quantity": 44
   },
   {
     "AirportDate": "42754ATL",
@@ -800,7 +800,7 @@
     "airport_code": "ATL",
     "flights": 6434,
     "seats": 911722,
-    "Quantity": 40
+    "Quantity": 203
   },
   {
     "AirportDate": "42754JFK",
@@ -811,7 +811,7 @@
     "airport_code": "JFK",
     "flights": 4756,
     "seats": 722764,
-    "Quantity": 389
+    "Quantity": 269
   },
   {
     "AirportDate": "42754LAX",
@@ -822,7 +822,7 @@
     "airport_code": "LAX",
     "flights": 6073,
     "seats": 885383,
-    "Quantity": 105
+    "Quantity": 117
   },
   {
     "AirportDate": "42754LGA",
@@ -833,7 +833,7 @@
     "airport_code": "LGA",
     "flights": 1697,
     "seats": 177574,
-    "Quantity": 25
+    "Quantity": 65
   },
   {
     "AirportDate": "42755ATL",
@@ -844,7 +844,7 @@
     "airport_code": "ATL",
     "flights": 6551,
     "seats": 934222,
-    "Quantity": 37
+    "Quantity": 210
   },
   {
     "AirportDate": "42755JFK",
@@ -855,7 +855,7 @@
     "airport_code": "JFK",
     "flights": 4653,
     "seats": 710335,
-    "Quantity": 372
+    "Quantity": 298
   },
   {
     "AirportDate": "42755LAX",
@@ -866,7 +866,7 @@
     "airport_code": "LAX",
     "flights": 6144,
     "seats": 893165,
-    "Quantity": 107
+    "Quantity": 88
   },
   {
     "AirportDate": "42755LGA",
@@ -877,7 +877,7 @@
     "airport_code": "LGA",
     "flights": 1803,
     "seats": 185301,
-    "Quantity": 5
+    "Quantity": 68
   },
   {
     "AirportDate": "42756ATL",
@@ -888,7 +888,7 @@
     "airport_code": "ATL",
     "flights": 5027,
     "seats": 733855,
-    "Quantity": 47
+    "Quantity": 158
   },
   {
     "AirportDate": "42756JFK",
@@ -899,7 +899,7 @@
     "airport_code": "JFK",
     "flights": 4221,
     "seats": 664382,
-    "Quantity": 429
+    "Quantity": 250
   },
   {
     "AirportDate": "42756LAX",
@@ -910,7 +910,7 @@
     "airport_code": "LAX",
     "flights": 5237,
     "seats": 770087,
-    "Quantity": 122
+    "Quantity": 95
   },
   {
     "AirportDate": "42756LGA",
@@ -921,7 +921,7 @@
     "airport_code": "LGA",
     "flights": 905,
     "seats": 103692,
-    "Quantity": 10
+    "Quantity": 18
   },
   {
     "AirportDate": "42757ATL",
@@ -932,7 +932,7 @@
     "airport_code": "ATL",
     "flights": 5976,
     "seats": 864598,
-    "Quantity": 42
+    "Quantity": 217
   },
   {
     "AirportDate": "42757JFK",
@@ -943,7 +943,7 @@
     "airport_code": "JFK",
     "flights": 4573,
     "seats": 709246,
-    "Quantity": 341
+    "Quantity": 262
   },
   {
     "AirportDate": "42757LAX",
@@ -954,7 +954,7 @@
     "airport_code": "LAX",
     "flights": 5842,
     "seats": 862609,
-    "Quantity": 123
+    "Quantity": 104
   },
   {
     "AirportDate": "42757LGA",
@@ -965,7 +965,7 @@
     "airport_code": "LGA",
     "flights": 1423,
     "seats": 150950,
-    "Quantity": 14
+    "Quantity": 63
   },
   {
     "AirportDate": "42758ATL",
@@ -976,7 +976,7 @@
     "airport_code": "ATL",
     "flights": 6333,
     "seats": 905684,
-    "Quantity": 30
+    "Quantity": 201
   },
   {
     "AirportDate": "42758JFK",
@@ -987,7 +987,7 @@
     "airport_code": "JFK",
     "flights": 4450,
     "seats": 690261,
-    "Quantity": 372
+    "Quantity": 260
   },
   {
     "AirportDate": "42758LAX",
@@ -998,7 +998,7 @@
     "airport_code": "LAX",
     "flights": 5997,
     "seats": 879377,
-    "Quantity": 112
+    "Quantity": 80
   },
   {
     "AirportDate": "42758LGA",
@@ -1009,7 +1009,7 @@
     "airport_code": "LGA",
     "flights": 1530,
     "seats": 163750,
-    "Quantity": 9
+    "Quantity": 47
   },
   {
     "AirportDate": "42759ATL",
@@ -1020,7 +1020,7 @@
     "airport_code": "ATL",
     "flights": 5915,
     "seats": 836383,
-    "Quantity": 28
+    "Quantity": 202
   },
   {
     "AirportDate": "42759JFK",
@@ -1031,7 +1031,7 @@
     "airport_code": "JFK",
     "flights": 4466,
     "seats": 668020,
-    "Quantity": 352
+    "Quantity": 187
   },
   {
     "AirportDate": "42759LAX",
@@ -1042,7 +1042,7 @@
     "airport_code": "LAX",
     "flights": 5806,
     "seats": 843826,
-    "Quantity": 93
+    "Quantity": 85
   },
   {
     "AirportDate": "42759LGA",
@@ -1053,7 +1053,7 @@
     "airport_code": "LGA",
     "flights": 1680,
     "seats": 173530,
-    "Quantity": 7
+    "Quantity": 37
   },
   {
     "AirportDate": "42760ATL",
@@ -1064,7 +1064,7 @@
     "airport_code": "ATL",
     "flights": 5845,
     "seats": 827662,
-    "Quantity": 30
+    "Quantity": 188
   },
   {
     "AirportDate": "42760JFK",
@@ -1075,7 +1075,7 @@
     "airport_code": "JFK",
     "flights": 4430,
     "seats": 660812,
-    "Quantity": 322
+    "Quantity": 227
   },
   {
     "AirportDate": "42760LAX",
@@ -1086,7 +1086,7 @@
     "airport_code": "LAX",
     "flights": 5906,
     "seats": 856240,
-    "Quantity": 89
+    "Quantity": 92
   },
   {
     "AirportDate": "42760LGA",
@@ -1097,7 +1097,7 @@
     "airport_code": "LGA",
     "flights": 1751,
     "seats": 179094,
-    "Quantity": 6
+    "Quantity": 46
   },
   {
     "AirportDate": "42761ATL",
@@ -1108,7 +1108,7 @@
     "airport_code": "ATL",
     "flights": 6371,
     "seats": 903882,
-    "Quantity": 23
+    "Quantity": 208
   },
   {
     "AirportDate": "42761JFK",
@@ -1119,7 +1119,7 @@
     "airport_code": "JFK",
     "flights": 4662,
     "seats": 701881,
-    "Quantity": 341
+    "Quantity": 232
   },
   {
     "AirportDate": "42761LAX",
@@ -1130,7 +1130,7 @@
     "airport_code": "LAX",
     "flights": 6074,
     "seats": 884877,
-    "Quantity": 104
+    "Quantity": 106
   },
   {
     "AirportDate": "42761LGA",
@@ -1141,7 +1141,7 @@
     "airport_code": "LGA",
     "flights": 1798,
     "seats": 184683,
-    "Quantity": 12
+    "Quantity": 55
   },
   {
     "AirportDate": "42762ATL",
@@ -1152,7 +1152,7 @@
     "airport_code": "ATL",
     "flights": 6497,
     "seats": 924896,
-    "Quantity": 28
+    "Quantity": 203
   },
   {
     "AirportDate": "42762JFK",
@@ -1163,7 +1163,7 @@
     "airport_code": "JFK",
     "flights": 4603,
     "seats": 707367,
-    "Quantity": 322
+    "Quantity": 283
   },
   {
     "AirportDate": "42762LAX",
@@ -1174,7 +1174,7 @@
     "airport_code": "LAX",
     "flights": 6054,
     "seats": 880013,
-    "Quantity": 109
+    "Quantity": 86
   },
   {
     "AirportDate": "42762LGA",
@@ -1185,7 +1185,7 @@
     "airport_code": "LGA",
     "flights": 1807,
     "seats": 185853,
-    "Quantity": 4
+    "Quantity": 49
   },
   {
     "AirportDate": "42763ATL",
@@ -1196,7 +1196,7 @@
     "airport_code": "ATL",
     "flights": 4871,
     "seats": 707982,
-    "Quantity": 17
+    "Quantity": 153
   },
   {
     "AirportDate": "42763JFK",
@@ -1207,7 +1207,7 @@
     "airport_code": "JFK",
     "flights": 4166,
     "seats": 654750,
-    "Quantity": 289
+    "Quantity": 194
   },
   {
     "AirportDate": "42763LAX",
@@ -1218,7 +1218,7 @@
     "airport_code": "LAX",
     "flights": 5267,
     "seats": 776803,
-    "Quantity": 83
+    "Quantity": 71
   },
   {
     "AirportDate": "42763LGA",
@@ -1229,7 +1229,7 @@
     "airport_code": "LGA",
     "flights": 881,
     "seats": 100249,
-    "Quantity": 8
+    "Quantity": 14
   },
   {
     "AirportDate": "42764ATL",
@@ -1240,7 +1240,7 @@
     "airport_code": "ATL",
     "flights": 5891,
     "seats": 845198,
-    "Quantity": 49
+    "Quantity": 157
   },
   {
     "AirportDate": "42764JFK",
@@ -1251,7 +1251,7 @@
     "airport_code": "JFK",
     "flights": 4662,
     "seats": 716479,
-    "Quantity": 300
+    "Quantity": 268
   },
   {
     "AirportDate": "42764LAX",
@@ -1262,7 +1262,7 @@
     "airport_code": "LAX",
     "flights": 5752,
     "seats": 847269,
-    "Quantity": 96
+    "Quantity": 85
   },
   {
     "AirportDate": "42764LGA",
@@ -1273,7 +1273,7 @@
     "airport_code": "LGA",
     "flights": 1459,
     "seats": 153353,
-    "Quantity": 3
+    "Quantity": 42
   },
   {
     "AirportDate": "42765ATL",
@@ -1284,7 +1284,7 @@
     "airport_code": "ATL",
     "flights": 6307,
     "seats": 897975,
-    "Quantity": 27
+    "Quantity": 166
   },
   {
     "AirportDate": "42765JFK",
@@ -1295,7 +1295,7 @@
     "airport_code": "JFK",
     "flights": 4674,
     "seats": 710927,
-    "Quantity": 325
+    "Quantity": 248
   },
   {
     "AirportDate": "42765LAX",
@@ -1306,7 +1306,7 @@
     "airport_code": "LAX",
     "flights": 6034,
     "seats": 879484,
-    "Quantity": 102
+    "Quantity": 75
   },
   {
     "AirportDate": "42765LGA",
@@ -1317,7 +1317,7 @@
     "airport_code": "LGA",
     "flights": 1758,
     "seats": 180719,
-    "Quantity": 1
+    "Quantity": 40
   },
   {
     "AirportDate": "42766ATL",
@@ -1328,7 +1328,7 @@
     "airport_code": "ATL",
     "flights": 5761,
     "seats": 814946,
-    "Quantity": 17
+    "Quantity": 138
   },
   {
     "AirportDate": "42766JFK",
@@ -1339,7 +1339,7 @@
     "airport_code": "JFK",
     "flights": 4412,
     "seats": 664395,
-    "Quantity": 298
+    "Quantity": 203
   },
   {
     "AirportDate": "42766LAX",
@@ -1350,7 +1350,7 @@
     "airport_code": "LAX",
     "flights": 5736,
     "seats": 835445,
-    "Quantity": 88
+    "Quantity": 67
   },
   {
     "AirportDate": "42766LGA",
@@ -1361,6 +1361,6 @@
     "airport_code": "LGA",
     "flights": 1706,
     "seats": 174827,
-    "Quantity": 2
+    "Quantity": 35
   }
 ]
